@@ -1,7 +1,11 @@
-# Univariate Linear Regression — From Scratch
+# Machine Learning Specialization — Labs in Python
 
-My hands-on implementation of univariate linear regression with Python, inspired by the **Machine Learning Specialization by Andrew Ng (DeepLearning.AI)**.  
-This repository contains **my own code**, refactored outside the original notebooks, with reproducible structure, CLI scripts, and basic tests.
+[![CI](https://github.com/levchenkoin/ml-linear-regression-uni/actions/workflows/ci.yml/badge.svg)](https://github.com/levchenkoin/ml-linear-regression-uni/actions/workflows/ci.yml)
+
+A hands-on, from-scratch implementation of key machine learning algorithms in Python,  
+based on concepts taught in the **Machine Learning Specialization by Andrew Ng (DeepLearning.AI)**.  
+
+The code is refactored out of the original Jupyter notebooks into a clean, reproducible project structure with CLI scripts, tests, and CI.
 
 ## 🚀 Quick Start
 
@@ -32,15 +36,19 @@ LICENSE            # MIT license
 ```
 ## ✨ Features
 
-- Implementation of **linear model**: $f_{w,b}(x) = wx + b$
+- Clean, reproducible implementation of core ML algorithms in **pure NumPy**
 
-- **Cost function** $J(w,b)$ with vectorized computation
+- **Linear regression**: model function $f_{w,b}(x)=wx+b$, cost $J(w,b)$
 
-- Fitting model from two points (closed-form solution)
+- Gradient descent training with cost curve visualization
 
-- CLI + Matplotlib plots
+- Closed-form solution from two points
 
-- Unit tests (`pytest`) for reproducibility
+- CLI-based scripts for training, prediction, and plotting
+
+- Unit tests with `pytest`
+
+- Continuous Integration via GitHub Actions
 
 ## 📖 Attribution
 
