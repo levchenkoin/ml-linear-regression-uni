@@ -1,6 +1,5 @@
 import numpy as np
-from src.linear import f_wb, fit_least_squares, LinearRegressorUni, cost, gradient_descent
-
+from ml_linear_regression_uni.linear import (f_wb, fit_least_squares, LinearRegressorUni, cost, gradient_descent)
 def test_two_points_fit():
     x = np.array([1.0, 2.0])
     y = np.array([300.0, 500.0])

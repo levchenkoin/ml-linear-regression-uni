@@ -2,7 +2,7 @@ import argparse
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-from src.linear import cost
+from ml_linear_regression_uni.linear import cost
 
 def main():
     parser = argparse.ArgumentParser()

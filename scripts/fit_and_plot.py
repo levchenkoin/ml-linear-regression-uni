@@ -2,7 +2,7 @@ import argparse
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-from src.linear import LinearRegressorUni
+from ml_linear_regression_uni.linear import LinearRegressorUni
 
 
 def main():

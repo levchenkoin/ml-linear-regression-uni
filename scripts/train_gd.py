@@ -2,7 +2,7 @@ import argparse
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-from src.linear import gradient_descent, cost
+from ml_linear_regression_uni.linear import gradient_descent, cost
 
 def main():
     p = argparse.ArgumentParser()
