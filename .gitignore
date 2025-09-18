@@ -222,3 +222,5 @@ reports/
 # Local configs (если будут временные конфиги)
 configs/local_*.yaml
 
+# macOS
+.DS_Store
