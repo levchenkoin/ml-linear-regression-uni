@@ -28,6 +28,7 @@ python scripts/fit_and_plot.py --x 1.0 2.0 --y 300.0 500.0 --predict_x 1.2
 # 4. Run tests
 pytest -q
 # or with coverage
+pip install pytest pytest-cov
 pytest -q --cov=ml_linear_regression_uni --cov-report=term-missing
 
 ```
