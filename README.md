@@ -21,7 +21,6 @@ python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -e .
 pip install -r requirements.txt
-pytest -q
 
 # 3. Run training + plotting
 python scripts/fit_and_plot.py --x 1.0 2.0 --y 300.0 500.0 --predict_x 1.2
