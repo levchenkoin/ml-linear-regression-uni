@@ -19,16 +19,24 @@ cd ml-specialisation-engineering
 # 2. Create virtual environment & install dependencies
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install -e .
 pip install -r requirements.txt
+pytest -q
 
 # 3. Run training + plotting
 python scripts/fit_and_plot.py --x 1.0 2.0 --y 300.0 500.0 --predict_x 1.2
+
+# 4. Run tests
+pytest -q
+# or with coverage
+pytest -q --cov=ml_linear_regression_uni --cov-report=term-missing
+
 ```
 ## 📂 Project Structure
 
 ```bash
 src/               # reusable code: model & cost functions
-scripts/           # CLI scripts (fit_and_plot.py, predict.py)
+scripts/           # CLI scripts
 tests/             # pytest tests for model correctness
 requirements.txt   # dependencies
 README.md          # this file
