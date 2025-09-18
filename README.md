@@ -1,6 +1,6 @@
-# Machine Learning Specialization — Labs in Python
+# Machine Learning Specialisation — Labs in Python
 
-[![CI](https://github.com/levchenkoin/ml-linear-regression-uni/actions/workflows/ci.yml/badge.svg)](https://github.com/levchenkoin/ml-linear-regression-uni/actions/workflows/ci.yml)
+[![CI](https://github.com/levchenkoin/ml-specialisation-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/levchenkoin/ml-specialisation-engineering/actions/workflows/ci.yml)
 
 A hands-on, from-scratch implementation of key machine learning algorithms in Python,  
 based on concepts taught in the **Machine Learning Specialization by Andrew Ng (DeepLearning.AI)**.  
@@ -13,8 +13,8 @@ Clone the repo and run training + plotting:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/levchenkoin/ml-linear-regression-uni.git
-cd ml-linear-regression-uni
+git clone https://github.com/levchenkoin/ml-specialisation-engineering.git
+cd ml-specialisation-engineering
 
 # 2. Create virtual environment & install dependencies
 python -m venv .venv
@@ -56,4 +56,4 @@ This project is **inspired by** the [Machine Learning Specialization](https://ww
 
 ## 📝 License
 
-This project is licensed under the [MIT License](https://github.com/levchenkoin/ml-linear-regression-uni/tree/main?tab=MIT-1-ov-file).
+This project is licensed under the [MIT License](https://github.com/levchenkoin/ml-specialisation-engineering?tab=MIT-1-ov-file).
